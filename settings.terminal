@@ -1,0 +1,71 @@
+[...]
+"actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            }
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "cd xxx/\r"
+            },
+            "keys": "f1"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "cd ../\r"
+            },
+            "keys": "f2"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "cd xxx; mvn -T 1C install -DskipTests\r"
+            },
+            "keys": "f8" 
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w"
+        }
+    ],
+    [...]
