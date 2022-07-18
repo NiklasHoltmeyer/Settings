@@ -1,9 +1,25 @@
-// VS-Code Keybinding
-// Place your key bindings in this file to override the defaults
+// Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "ctrl+j",
-        "command": "editor.action.addSelectionToNextFindMatch",
+        "key": "alt+j",
+        "command": "extension.caseSensitiveAddNext",
         "when": "editorFocus"
     },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-extension.caseSensitiveAddNext",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+k z",
+        "command": "-workbench.action.toggleZenMode"
+    }
 ]
