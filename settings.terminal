@@ -66,6 +66,30 @@
                 "action": "closeTab"
             },
             "keys": "ctrl+w"
+        },
+        {
+            "command": "toggleFullscreen",
+            "keys": "alt+enter"
+        },
+                {
+            "command": 
+            {
+                "action": "adjustFontSize",
+                "delta": 1
+            },
+            "keys": "ctrl+plus"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustFontSize",
+                "delta": -1
+            },
+            "keys": "ctrl+minus"
+        },
+        {
+            "command": "resetFontSize",
+            "keys": "ctrl+0"
         }
     ],
     [...]
